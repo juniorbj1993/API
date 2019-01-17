@@ -18,11 +18,10 @@
 .login_registrar{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    box-shadow: 10px 10px 8px #a8a8a8;
  
 }
 .texto_login_registrar{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 .slide-row{
     background-color: #ffffff;
