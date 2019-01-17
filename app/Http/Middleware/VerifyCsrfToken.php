@@ -19,6 +19,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'http://localhost:8000/api/users'
+        'http://localhost:8000/api/users',
+        'http://localhost:8000/api/users/*'
     ];
 }

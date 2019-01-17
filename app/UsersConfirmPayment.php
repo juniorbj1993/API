@@ -22,16 +22,30 @@ class UsersConfirmPayment extends Model
     public function getUsers($id){
 
         $user = self::where('tokenuser',$id)->get();
-        // $user = self::find($id);
         if(count($user)==0){
             return false;
         }
         return $user;
     }
-    public function updateUsers(){
+    public function updateUsers($id){
+        $user = self::where('tokenuser',$id)->get()->first();
+        if(!$user){
+            return false;
+        }
+
+        $input = Input::all();
+        $user -> fill($input);
+        $user -> update();
+        return $user;
 
     }
-    public function deleteUsers(){
+    public function deleteUsers($id){
+        $user = self::where('tokenuser',$id);
+        // $user = self::find($id);
+        if(!$user){
+            return false;
+        }
+        return $user->delete();
 
     }
 

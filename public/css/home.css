@@ -1,0 +1,79 @@
+.bg-light{
+    background-color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    border-radius: 20px;
+   
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color:#000000;
+}
+.navbar-light .navbar-brand{
+    color: #3e4095;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.login_registrar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    box-shadow: 10px 10px 8px #a8a8a8;
+ 
+}
+.texto_login_registrar{
+    margin-top: 5%;
+}
+.slide-row{
+    background-color: #ffffff;
+    padding-bottom: 10%;
+    padding-top: 3%;    
+}
+.topo_background{
+    background-color: #3e4095;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.background_meio{
+    background-image: url('../img/slides/slide2.png');
+     background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.background_fim{
+    background-image: url('../img/slides/slide1.png');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.973);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+    color: #212136;
+    border-radius: 20px;
+    
+}
+.card h5{
+    font-size: 24px;
+}
+.card p{
+    font-size: 18px;
+}
+.slide_box{
+    padding: 8%;
+    box-shadow: 10px 10px 8px #a8a8a8;
+}

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\UsersConfirmPayment;
+use Response;
 
 class ApiRestController extends Controller
 {
@@ -13,22 +14,30 @@ class ApiRestController extends Controller
         $this->user = $user;
     }
     public function allUsers(){
-        return $this->user->allUsers();
+        return response::json($this->user->allUsers(),200);
     }
     public function getUsers($id){
         $user = $this->user->getUsers($id);
         if(!$user){
-            return ['response'=>'Usuário não encontrado'];
+            return response::json(['response'=>'Usuário não encontrado'], 400);
         }
-        return $user;
+        return response::json($user,200);
     }
     public function saveUsers(){
-        return $this->user->saveUsers();
+        return response::json($this->user->saveUsers(),201);
     }
     public function deleteUsers($id){
-        return 'deletar usuario'.$id;
+        $user = $this->user->deleteUsers($id);
+        if(!$user){
+            return response::json(['response'=>'Usuário não encontrado'], 400);
+        }
+        return response::json(['response'=>'Usuário deletado'],200);
     }
     public function updateUsers($id){
-        return 'atualizar usuario'.$id;
+        $user = $this->user->updateUsers($id);
+        if(!$user){
+            return response::json(['response'=>'Usuário não encontrado'], 400);
+        }
+        return response::json($user,200);
     }
 }
