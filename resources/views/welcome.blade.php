@@ -45,13 +45,13 @@
 
             <div class="row texto_login_registrar">
                 <div class="col-12">
-                    <h1>Login</h1>
+                    <h4>Login</h4>
                     <p>Já sou cadastrado.</p>
                     <a href="#" class="btn btn-primary">Logar</a>
                 </div>
                 <div class="col-12">_____________________</div>
                 <div class="col-12">
-                <h1>Registrar</h1>
+                <h4>Registrar</h4>
                     <p>Quero me cadastrar.</p>
                     <a href="#" class="btn btn-primary">Cadastrar</a>
                 </div>
