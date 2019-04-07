@@ -1,0 +1,66 @@
+.navbar_keroajuda{
+  background-color: white !important;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.links a{
+  color: #3e4095;
+}
+@media (max-width: 1400px) {
+  .links {
+    margin-left: 40%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1325px) {
+  .links {
+    margin-left: 42%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1274px) {
+  .links {
+    margin-left: 37%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1255px) {
+  .links {
+    margin-left: 37%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1172px) {
+  .links {
+    margin-left: 37%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1150px) {
+  .links {
+    margin-left: 37%;
+  }
+}
+@media (max-width: 1095px) {
+  .links {
+    margin-left: 34%;
+  }
+}
+@media (max-width: 1046px) {
+  .links {
+    margin-left: 31%;
+  }
+}
+@media (max-width: 1000px) {
+  .links {
+    margin-left: 28%;
+  }
+}
+@media (max-width: 991px) {
+  .links {
+    margin-left: 0%;
+  }
+}
+
+
