@@ -39,7 +39,7 @@
                       1.4 O CLIENTE está ciente e concorda que os serviços são fornecidos na forma como se encontram disponibilizados.
                     </p>
                     <p>
-                      1.5 O CLIENTE fica desde logo informado e concorda que os serviços do KERO AJUDA estarão disponíveis 24 (vinte e quatro) horas por dia, 7 (sete) dias por semana, mas que por motivos alheios à vontade do KERO AJUDA , incluindo mas não se limitando à caso fortuito, força maior, e manutenção dos servidores, os mesmo poderão estar indisponíveis para consultas pelo USUÁRIO.
+                      1.5 O CLIENTE fica desde logo informado e concorda que os serviços do KERO AJUDA estarão disponíveis 24 (vinte e quatro) horas por dia, 7 (sete) dias por semana, mas que por motivos alheios à vontade do KERO AJUDA, incluindo, mas não se limitando à caso fortuito, força maior, e manutenção dos servidores, os mesmo poderão estar indisponíveis para consultas pelo USUÁRIO.
                     </p>
                   </div>
                   <br>
