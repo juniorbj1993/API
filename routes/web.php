@@ -1,10 +1,9 @@
 <?php
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/politica','SiteController@politica');
+Route::get('', function () {
+    return view('index');
+});
 
 // Route::group(['prefix' =>'api'], function () {
 //     Route::group(['prefix' => 'users'], function () {
